@@ -1,0 +1,32 @@
+.grid{
+display:flex;
+flex-wrap: wrap;
+gap:10px;
+width:500px;
+margin-left: 37vw;
+margin-top:20vh;
+}
+body{
+          background-color: black;
+}
+.turn{
+          color: white;
+          text-align: center;
+          font-size: 2vw;
+          position:relative;
+          top:8vw;
+}
+.winner ,.draw{
+          color: pink;
+          text-align: center;
+          font-size: 2vw;
+          position:relative;
+          top:2vw;       
+}
+.reset{
+          font-size: 2vw;
+          position:relative;
+          top:3vw; 
+          left:47vw;
+          border-radius: 10px;       
+}
